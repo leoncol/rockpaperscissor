@@ -58,6 +58,7 @@ function newGame (){
     count.textContent = "-";
     playerHand.src = `./assets/rock.png`;
     computerHand.src = `./assets/rock.png`;
+    gameOverMessage.textContent = "";
     buttons.forEach((button) => {
         button.disabled = false;
     });
